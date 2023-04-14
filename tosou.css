@@ -1,307 +1,208 @@
-*{
-  box-sizing: border-box;
-}
-.hlist{
-    list-style-type: none;
-    float:right;
-    color:white;
-    display:block;
-    opacity: 0.8;
-    padding-right:50px;
-    line-height:60px;
-    background-color: #3b5998;
-    padding:0px 10px;
-    font-size: 50px;
-    font-family:'Times New Roman', Times, serif;
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="tosou.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  </head>
+  <body>
     
-
-  }
-  .sentence{
-    font-size: 20px;
-    word-wrap: break-word;
-    width: 71%;
-    margin:10px auto 30px auto;
-    text-align: left;
+    <header>
+      
+      <div class="containner">
+      <a class="title"><img class="logo" src="https://lh3.googleusercontent.com/pw/AJFCJaVeXje9b9OW-TNACM7in6vm5BpAXZ82fsjdK7tDuR9h_Hx8dmlhvSjPLyZH2OwtKxhWD4DhdsGnteMycxsCIApD888Q7eB1xoqC4Rp0LghSSTIhPy6J3b0_rXS7zcWU9pFqggL253yJx3P3FInJyFkd=w680-h171-s-no?authuser=0"></a>
+      <div >
+        <a href="https://www.facebook.com/people/%E6%B2%96%E6%BE%A4%E5%A1%97%E8%A3%85%E5%B7%A5%E6%A5%ADbbc/100054252350627/" class="hlist"><span class="fa fa-facebook"></span>Facebookはこちら</a>
+      </div>
+    </div>
+    </header>
     
+    <div class="clear"></div>
+    <div class="main">
+      
+      
+      <div class="top">
+        
+        <div class="midasi">
+          <img class="tt" src="https://lh3.googleusercontent.com/pw/AMWts8AGUVhOIJ4AX_HRgF5ErCpY-XASrO7uujCOVN5PGVFjj0kxen0LhDKj5okaOqsqKai-wo5kgF3XIog01xWMiPcJ-8hvLH1NTtt7KCxFtKzLiWiF2r7TcS3oj7Mii_VeIbppCtOwik7Dn49wji1rtxL4=w646-h484-no?authuser=0">
+       <p class="taitoru">とことん<br>塗ります</p>
 
-  }
-  .detail{
-    height: 400px;
-  }
-.hlist:hover{
-  opacity: 1;
-
-}
-.containner{
-  padding:18px 30px 0 50px;
-}
-.fotos{
-  padding: 20px 0 20px 0;
-  height: 100%;
-}
-
-
-
-.foto {
-  position: fixed;
-  top: 10%;
-  left:10%;
-  margin: auto;
-  background-color:white;
-  padding: 20px 0 20px 0;
-  border-radius: 10px;
-  width: 80%;
-  height: 80%;
-  text-align: center;
-  display: none;
-  z-index: 100;
-}
-.img{
-  margin: auto;
-  text-align: center;
-  display: none;
-  height:100%;
-}
-.active{
-  display: block;
-}
-.foot{
-  cursor: pointer;
-  top:50%;
-}
-.pre-btn{
-  position: absolute;
+        </div>
+         <p>目次</p>
+        <div class="mokuzi">
+          <div class="moku">
+            <a href="#kigyou" class="scroll">企業情報<br><img  src="https://lh3.googleusercontent.com/pw/AMWts8C2Wg7-kH-XFD82ajSucLP-TXlpuB0pmXi1_UqMNzggzRafWVvzhblKmFFrZ_D-VCko-SJ9jOVzrmxhQX-fNIsnA90Uy-qjaJD2dSsdoSXtFxknd7rXHcfL-Q0aQx8PNXSfufPaZD0MPsaFtnXpPTQl=w1321-h990-no?authuser=0">
+            </a>
+            
+          </div>
+          <div class="moku">
+            <a href="#kyu" class="scroll">求人情報<br><img src="https://lh3.googleusercontent.com/pw/AMWts8BGjS-qi7MdiwZYzCKcGZKvAeRQF8YRwJSE8EEstwjlxBcq7iYFP19w_yH7-xqwbbggYBRdCCyRrNgdfaTBrIOX5LopoBpPAi4i8Kry41cx6Iu9rxIEp5LJjc7fJ76FdUyZH_of9UHH3xdGrdy5eruu=w1321-h990-no?authuser=0">
+            </a>
+            
+          </div>
+          <div class="moku">
+            <a href="#kus" class="scroll">草野球チーム<br><img src="https://lh3.googleusercontent.com/pw/AMWts8D8c3d7XvIUS9ZqN-bdc5t7SnByuvMITljCrbLaaMlJQ-KjfzfC6fnx2CqUUMOkFZB1a9fLLi_Or0rOhFQrsxRM6bZqFjziqKJh5LM7urlxulZLBzqCh_FIfpDfIIWcXAdwFiD5ccFkhpgwMqxqpN0G=w1321-h990-no?authuser=0">
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="second">
+        <div class="space" id="kigyou"></div>
+        <h5 id="kigyou">沖澤塗装工業</h5>
+        <img src="https://lh3.googleusercontent.com/pw/AJFCJaVrSScJngaw47RUj7iQAqPPGPvsZbsoHOUFC2nBz-140qA2KvQwPlzZ3qYwT28-yMDVfPj2_ngxw-RHGLkQdkTdaoHRv4oMGg30AOf1fcjlUP8oQYwLpdtQXeTpSBRAZYW9CvdUT1c-ZUZCAJfmr3_N=w1282-h961-s-no?authuser=0/photos.google.com/share/AF1QipMdBQbnPtpoaC99S9ebw74-Iw1GXzCXNmbxmXfZUsSyyhNaX3bQMURhwOzBmzyKNg/photo/AF1QipPJ42OIoIAptfXVmP7hpiHDcp2q2SnBCPOo1RtE?key=aHNzY0h2MlRTcVdNaU9JZ1YxQWxZeW9LeVpEOXJn
+        "><br>
+          <h3>社長</h3>
+        <p class="sentence">当社はアットホームな職場作りをモットーにお客様にも、しっかり挨拶できる人材育成しており、各自妥協を許さない仕事を徹底しております。<br>従業員には常にスキルアップを志し、プロとしての
+        自覚を持つようしています。<br>また当社は塗装だけではなく、足場施工、クロス張り替え、外装張り替え、雨樋打ち替え、外構工事、除雪作業、排雪作業と多種にわたって仕事をしています。
+      通年雇用は北国の塗装業者にとって難しい問題ですが、当社は実践して従業員の生活を守っていきます。<br>沖澤塗装工業BBCとして野球チームも、朝野球、県軟連、ナイターリーグに参戦しております。</p>
+       
+      <img class="detail" src="https://lh3.googleusercontent.com/pw/AJFCJaU3pOcy2CEZxqcpAn5K34pw67h0Cwnog1ZB_QTSxpsrFvPX3CXrT4s8DB8XB1H01-QULIlfgGgjhwCLrbyb-QNkNmPUSgVmK2zVXEBwu80JPPNuF93W87Uwa3LEWPFA30Tcvdxgo1VLgT44AlMWtXAp=w872-h654-s-no?authuser=0">
+        <img class="detail" src="https://lh3.googleusercontent.com/pw/AJFCJaX0OLYkmRaxUSryzzXOi5omGwJ-NwTWsYfKQYN7AlRWSWxjT-R8a7ZkOyA4a4Jq84pwKbs43KGH6fuR5qKa0CVCyXXbViNyvNPUUrHnKGckH7YGOlMXnUVMRHE34S4PprdQTrcPnPT3BSEi46PdRr6S=w693-h924-s-no?authuser=0">
+        <br>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12102.18674211708!2d141.3757839!3d40.6839561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b5e6893e92a11%3A0xb94e28069e871842!2z5rKW5r6k5aGX6KOF5bel5qWt!5e0!3m2!1sja!2sjp!4v1679467404169!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="tel" href="tel:0176539792">電話番号<br>0176-53-9792</a>
+        <div class="kigyou">
+          <img src="">
+          <p></p>
+        </div>
+        
+      <div class="third">
+        <div class="space" id="kyu"></div>
+        <h2 >求人情報</h2>
+        <div class="working">
+          <h7>主な業務内容</h7>
+          <h3>業種　　一般住宅塗装及び建設</h3>
   
-  left: 12px;
-  display:none;
- 
-}
-.next-btn{
-  position: absolute;
- 
-  right: 12px;
-}
-.fa-times {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  color: rgba(128, 128, 128, 0.46);
-  cursor: pointer;
-  display: block;
-}
-.logo{
-  float:left;
-  color:black;
+          <div class="works">
+            <div class="work">
+              <h3>足場施工</h3>
+              <img class="work-image" src="https://lh3.googleusercontent.com/pw/AJFCJaVB_UcnYd-bsdDpgEoF8zjHPyNp8njEmOLnGW8EQ16njsnHkNeK3EJMwmxBSsGq1q3I9IODw0391xV9xymPo7ZNTEZTS9qgCmT0h_fQMdume266pFHVjwnDK8NYJLwUr6xwrFsGfj6OB06PH0LENne2=w1282-h961-s-no?authuser=0">
+              <p class="exp"></p>
+              <div class="foto">
+                <i class="fa fa-5x fa-times"></i><br>
+                <div class="pre-btn foot">←前へ</div>
+                <div class="fotos">
+                  <img class="img active" src="https://lh3.googleusercontent.com/pw/AJFCJaU2JoBSbiPr5V5S_K6sdZUQLzWMIoZ7h65pGa7HYArD9O_B5eO7bh8pHmRN_avMbGGeUDNxt06eutFQHjbmhCZNfmrEDz1x0vA3izP0d2WLro964KI966Z9kNspexjBOXkItSuzgfXwPcgysaLxv5sX=w721-h961-s-no?authuser=0">
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaVMCQjDY8gFivD9en8R1YkHY2QbA67KVmXbT6wPQEOABocaaSNAgXChnSZ4ymZ30CXiJEvn4w2DMX3Ao962dwt24yOLzwyqWw9rmHngru8sLEo3ZdRZNFlSlLbjx_oPNiCWsslXkaHVYr22EHUD2668=w693-h924-s-no?authuser=0">
+         
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaX0IjTJM3q6a8XGbWukCBFs4FbR3XoQaY9Iy4HGgc8N26TJFVAormOMQCXjITn2n5FtDzFUYTbSm-zdqPct8JO3URPIXpfuvP6QW4sqUPmTEq5-X_oIXDdx-uitPiMMHX4X9GQJ741h2RKWc2nqREkc=w693-h924-s-no?authuser=0">
+                </div>
+                <div class="next-btn foot">次へ→</div>
+              </div>
+            </div>
+            
+            
+            
+            <div class="work">
+              <h3>オイルタンク塗装工事</h3>
+              <img class="work-image" src="https://lh3.googleusercontent.com/pw/AMWts8B-uqYSFHhRh28i3nwHdYgyCBl8oJC-lqkIYM7LlhXifBtckTTnRAZwQViQ-obYIhNR0zVQNcSjU5iV9yowApU99XsAGf6lavrhI4ROnkDqohWgpIAh46xa_qJowEfXhHMDSt9pQAnQ2YnMhlBvmTWG=w1321-h990-no?authuser=0">
+              
+              <p class="exp"></p>
+              <div class="foto">
+                <i class="fa fa-5x fa-times"></i><br>
+                <div class="pre-btn foot">←前へ</div>
+                <div class="fotos">
+                  <img class="img active" src="https://lh3.googleusercontent.com/pw/AJFCJaVgQ_cQlKJny-Su-FB9juKYkcxHTGPmSxgDpMqpWpIhM7qZJhS8oJDz8U5l147L8GS65MVCSK5Rzx2jpleSyIETEe5spVHwYGMtviHoAgQHZXVfl9LQaWGdhtaptxdaWY6G5mb2Q80t-bvZsKK7-xHx=w1282-h961-s-no?authuser=0">
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaW1-puuC64roZpwE364PO8uZx9PYNOnVgtIvU0Hm7lMHysKxZ-ERMROgjUo32DCi322pK2dx5_8ablVvfdSL_OphsWJ0eSUORNTtGqbeI5AsiKX1zRtYaJ_eDbP6tSKJNpLO1r7FkIlGwqI7xFmKKyK=w872-h654-s-no?authuser=0">
+                 
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaXptJKJCniSuLki4rpa1A-l7DqwK-1bMenEztYqnKWkWVIsL1XLaUnB88BTuzH6-SnuGsLRuQStBW22zZBO5CUAbDs_99tk7HbHinoavjlFr-dmHDcY4n0hskZiok86ynhmeBSDiURMGOUPh61p8ryk=w872-h654-s-no?authuser=0">
+         
+                </div>
+                <div class="next-btn foot">次へ→</div>
+              </div>
+            </div>
+            <div class="work">
+              <h3>フロア替え工事</h3>
+              <img  class="work-image" src="https://lh3.googleusercontent.com/pw/AMWts8AyECZgZzWu2eqWxCg3Imm-uA5lI4HkzVR_D1o_iaDyaaAztccEl1gk4yCOL2VKWaVwnWKkfRNPNMcH9RFHR1h5zwL4t6EcdzIpr8TR6HwDgyMbB5eecSXOcvWF3sB4yt9ydL5ir3MJx5hJ0KdV30GS=w743-h990-no?authuser=0">
+              
+              <p class="exp"></p>
+              <div class="foto">
+                <i class="fa fa-5x fa-times"></i><br>
+                <div class="pre-btn foot">←前へ</div>
+                <div class="fotos">
+                  <img class="img active" src="https://lh3.googleusercontent.com/pw/AJFCJaXajecMMnCwG3tRr-X2inCL4-jg60_EfVtAq_Vdo_KeuHiuauh_i7HYCsLPSGNOlhM3l7nlGem5cIkuyk6_21dmXmBfH0GCBeON7CsIudXJIvxRuBdnelf-UqzU-n_26KQ9HOk5bYC9SBONThz52RCS=w693-h924-s-no?authuser=0">
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaWBIguVLUDPHVedBbJq_sGkztSgWkA39FSA8ZnXqKytdMg79Plq0W3A0dCYB2cxyFDLg_udNwCuraA0yHLwQU-VAdbInpK8gVoSW_9iKWh6A6zqr_bNSn8K8jxv2w9OI4jdJWXtIo0hUzCTaizG5ZwY=w693-h924-s-no?authuser=0">
+         
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaVxOC9t_871UEUFU534Qtp0wlPbYOwF1QqDXIH8I5GTDT8vN4NVGlwkWHOxaBZXPkhr-zHY_Q38w0N8-dsZQrD1aEyjFCvEUOnX0zQZ6mVWsWhH_ihNg_j6j7F8mBUgfbMn1sT4SWXhl6UAlqIF6HlN=w693-h924-s-no?authuser=0">
+                </div>
+                <div class="next-btn foot">次へ→</div>
+              </div>
+            </div>
+            <div class="work">
+              <h3>土留め施行工事</h3>
+              <img class="work-image" src="https://lh3.googleusercontent.com/pw/AJFCJaUp0AqeHGO_HDPPdcA7Pmzj8A0-2ivONwC78nScR7SWjS2uNL0k_pV1h9O-a9EJKr5TCT1d_FGrGj2sFkj6-DkHW1Lz3VPXnQa0jp0nNAEoWUxfI_P7m4WTDMELcLAG94hDAz1obS7Wkw6Qcgg1YtRg=w693-h924-s-no?authuser=0">
+              
+              
+              <p class="exp"></p>
+              <div class="foto">
+                <i class="fa fa-5x fa-times"></i><br>
+                <div class="pre-btn foot">←前へ</div>
+                <div class="fotos">
+                  <img class="img active" src="https://lh3.googleusercontent.com/pw/AJFCJaW9Xf6G5JaWc5Of_ZHGHtDYp_XCqY3YC9MF13GrKL8rOuQh1d7a-Qzlg0zEwtTpC_MjofBk1ovzjZFxCtUjtA8KTiJPPz7pO-CGTJkBcNfT23DrNLF-pljEtkBqitX3lvJbouR6SLwc3cdjyxh1NCuz=w872-h654-s-no?authuser=0">
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaVm5e4-pDBleqAfFYz2-n5RmCwYnjdvZLaLhaWmQkaFP1zV9Wql29u37fE0zWAHIhSHwPig-p9maiskjz8_9XBUA8EUgPwhZP7lUV2QY0wsxCcZT_bFu3eHB8HnOKbAMDLU05Jc2LsU99bNj_HaTXtk=w693-h924-s-no?authuser=0">
+         
+                  <img class="img" src="https://lh3.googleusercontent.com/pw/AJFCJaWryV3Di7tcs9Mda-9Tn56roAxN5z2Oy0K5Ei3NIrNCCb78nwFU8PPfVnUj42Oz-phuybRvJ3NeG4ugUSgKp_uUm3q53ugxbmXBAI6ip3pzCaCplfzRQEUdDWwkOOg5D3D9RKArJwoEtQqZL7Y1Vq_z=w693-h924-s-no?authuser=0">
+                </div>
+                <div class="next-btn foot">次へ→</div>
+              </div>
+            </div>
   
-  padding-left: 20px;
   
-  padding:0px 10px;
+          </div>
+          <h7>主な情報</h7>
+          <div class="zyou">
+            
+            <div class="zyo">
+              <div class="tai">雇用形式</div>
+              <div class="hen">正社員</div>
+
+            </div>
+            <div class="zyo">
+              <div class="tai">賃金</div>
+              <div class="hen">月額</div>
+
+            </div>
+            <div class="zyo">
+              <div class="tai">就業時間</div>
+              <div class="hen"></div>
+
+            </div>
+            <div class="zyo">
+              <div class="tai">時間外労働</div>
+              <div class="hen">月平均15時間</div>
+
+            </div>
+            
+          </div>
+          <a href="https://hello-work.info/job/208000659031/" ><p class="hello">詳しくは<br>こちら→</p></a>
   
-  height: 60px;
-  
+        </div>
 
-
-
-}
-header{
-  
-  height:90px;
-  background-color: black;
-  width:100%;
-  z-index: 10;
-  position: fixed;
-  top:-8px;
-
-  opacity: 0.8;
-  
-}
-.mokuzi{
-  width:100%;
-  text-align: center;
-  display: flex;
- 
-}
-.moku a{
-  width:100%;
-  
-
-  display:block;
-  font-size: 40px;
-}
-.clear{
-  clear: left;
-}
-.main{
-  position:absolute;
-  top:80px;
-  text-align:center;
- 
-
-}
-.space{
-  height: 10px;
-}
-.moku{
-  flex: auto;
-  opacity: 0.5;
-  border:3px solid black;
-  border-radius: 20px;
-  margin:5px;
-
-}
-
-.moku:hover{
-  opacity: 1;
-}
-
-h5{
-  font-size: 80px;
-  border-bottom: 5px solid black;
-  margin:80px;
- 
-}
-.map{
-  width: 90%;
-  
-
-}
-.tel{
-  width:100%;
-  font-size: 80px;
-  display: block;
-}
-h2{
-  font-size: 50px;
-  border: 3px solid black;
-  width: 50%;
-  margin: 80px auto 30px auto;
-}
-.moku img{
-  width: 90%;
-}
-.works{
-  display: flex;
-  flex-wrap: wrap;
-  
-
-}
-
-.third{
-  margin-bottom:200px;
-}
-.second{
-  margin-bottom:200px;
-}
-.work{
-
-  width:50%;
-  cursor: pointer;
-
-}
-.work-image{
-  width:90%;
-}
-.midasi{
-  position: relative;
-}
-.zis li{
-  width: fit-content;
-  margin: 0 auto;
-  font-size: 30px;
-}
-.tt{
-  width: 100%;
-}
-h7{
-  font-size: 40px;
-}
-h3{
-  font-size: 30px;
-}
-.taitoru{
-  border: 10px solid black;
-  border-radius: 20px;
-  font-size: 50px;
-  display: none;
-  padding: 20px;
-  position: absolute;
-  left:60%;
-  top:20%;
-  background-color: white;
-
-}
-.zyo{
-  border:3px solid #02ccba;
-  border-radius: 10px;
-  width:80%;
-  display: flex;
-  height: 100px;
-  margin-bottom: 20px;
-  margin: 20px auto;
-}
-
-.tai{
-  width:30%;
-  line-height:100px;
-  font-size: 30px;
-  background-color: rgb(12, 220, 147);
-}
-.hen{
-  width:70%;
-  line-height: 100px;
-  font-size: 30px;
-}
-.tel{
-  padding:100px;
-  margin: 50px auto;
-  font-size: 30px;
-  border: 2px solid black;
-  background-color: #0ed833;
-  color:white;
-  border-radius: 20px;
-  box-shadow: 0px 10px black;
-  width: 50%;
-  opacity: 0.9;
-  display: block;
-}
-.tel:hover{
-  background-color: #d2f700;
-}
-.tel:active{
-  box-shadow: none;
-  
-  position:relative;
-  top:10px;
-}
-.title{
-  cursor: pointer;
-}
-.hello{
-  border: 10px solid black;
-  border-radius: 20px;
-  font-size: 50px;
-  opacity:1;
-  padding: 20px;
-  display:inline-block;
-  background-color: rgb(3, 238, 255);
-  color: #0f0f0f;
-
-}
-.hello:hover{
-  background-color: rgb(3, 255, 158);
-}
-@media(max-width:1200px){
-  .tel{
-    opacity: 1;
-    font-size: 50px;
+      </div>
+      </div>
+      <div class="four"> 
+        <div class="space" id="kus"></div>
+        <h2>草野球チーム</h2>
+        <img src="https://lh3.googleusercontent.com/pw/AMWts8B5-Mryj3HAKUJBTI-dSf8iwcMdRWtuZrToCcEsw_3ehfhroLzvwSb00SA8SJAQC6RLqCiuaosaKdrlkbhOHSL_teEhskf8mDDBXr3j08SZw3dJLcBtbVmG2FlpT3Gqa0Q799ZW43KLy1J7jVvtQtfx=w1321-h990-no?authuser=0">
+     
+        <div class="zis">
+          <h4>実績</h4>
+          <ul>
+            <li>三沢独立リーグ創設</li>
+            <li>市内大会出場</li>
+          </ul>
+        </div>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100054252350627%2Fvideos%2F1364415020606753%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        
+        
+        
+        </div>
+    </div>
     
-  }
-  .img{
-    margin: auto;
-    text-align: center;
-   
-    width:80%;
-  }
-  
-}
-
+    <script src="tosou.js"></script>
+  </body>
+</html>
