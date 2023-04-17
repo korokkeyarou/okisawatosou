@@ -297,6 +297,7 @@ h3{
 }
 html{
   width: 100%;
+  max-width:100%;
 }
 @media(max-width:1200px){
   .tel{
