@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+.top-img{
+  width:70%;
+}
 .hlist{
     list-style-type: none;
     float:right;
