@@ -1,9 +1,6 @@
 *{
   box-sizing: border-box;
 }
-.top-img{
-  width:70%;
-}
 .hlist{
     list-style-type: none;
     float:right;
@@ -72,6 +69,11 @@
   cursor: pointer;
   top:50%;
   z-index: 100;
+
+  font-size: 50px;
+  color: #02ccba;
+  background-color: white;
+  top:50%;
 }
 .pre-btn{
   position: absolute;
@@ -111,6 +113,7 @@
 }
 body{
   margin:0;
+  max-width: 100%;
 }
 header{
   
@@ -143,6 +146,7 @@ header{
 .main{
   
   text-align:center;
+  width: 100%;
  
 
 }
@@ -162,7 +166,7 @@ header{
   opacity: 1;
 }
 
-h5{
+h1{
   font-size: 80px;
   border-bottom: 5px solid black;
   margin:80px;
@@ -300,9 +304,15 @@ h3{
 }
 html{
   width: 100%;
-  max-width:100%;
+}
+html{
+  max-width: 100%;
+}
+.top-img{
+  width:70%;
 }
 @media(max-width:1200px){
+  
   .tel{
     opacity: 1;
     font-size: 50px;
@@ -319,12 +329,8 @@ html{
    
     width:100%;
   }
-  .foot{
-    font-size: 50px;
-    color: #02ccba;
-    background-color: white;
-    top:50%;
-  }
+  
+  
   
   
 }
